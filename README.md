@@ -18,6 +18,8 @@ Nginx is also used to serving static content.
 ## Start Service
 Now, to start the application, do the following:
 
+First, download pretrained models from the link (https://disk.yandex.ru/d/Kq7cTyHZJQXrbQ) and put them to “/models” folder
+
 In the **frontend** folder build Docker-image for Nginx
 ```
 docker build -t nlp_nginx .
@@ -30,3 +32,4 @@ And finally, in the root folder, execute
 ```
 docker compose up
 ```
+Open your web browser and navigate to http://localhost:80 to start application.

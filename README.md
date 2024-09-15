@@ -18,7 +18,7 @@ Nginx is also used to serving static content.
 ## Start Service
 Now, to start the application, do the following:
 
-First, download pretrained models from the link (https://disk.yandex.ru/d/Kq7cTyHZJQXrbQ) and put them to “/models” folder
+First, download pretrained models from the link (https://disk.yandex.ru/d/Kq7cTyHZJQXrbQ) and put them to “/models” folder.
 
 In the **frontend** folder build Docker-image for Nginx
 ```

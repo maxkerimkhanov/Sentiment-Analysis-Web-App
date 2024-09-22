@@ -14,6 +14,7 @@
 
 Nginx is also used to serving static content.
 ### Sentiment Analysis
+- Two BERT-based models are used for Russian and English text sentiment analysis
 - Shows whether text content is positive, negative or neutral
 ## Start Service
 Now, to start the application, do the following:
